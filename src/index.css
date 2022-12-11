@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  display: grid;
+  place-content: center;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  height: calc(100vh - 160px);
+  display: grid;
+  place-content: center;
+}
+
+footer {
+  height: 80px;
+  display: grid;
+  place-content: center;
+}
