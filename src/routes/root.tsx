@@ -1,10 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 // layouts
-import BaseLayout from '../layouts/baseLayout'
+import BaseLayout from '@/layouts/baseLayout'
 
 // pages
-import About from '../pages/About'
+import About from '@/pages/About'
 import App from '../App'
 
 const router = createBrowserRouter([
