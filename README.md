@@ -1,6 +1,6 @@
 # React + TypeScript + Vite Starter
 
-A template for starting develop React appliaction
+A template for starting develop React application using vite
 
 ## Tech Stack
 
@@ -14,9 +14,30 @@ A template for starting develop React appliaction
 
 Clone the project
 
+### Using base starter
+
+Clone the project
+
 ```bash
   git clone https://github.com/shaddamalbz/React-Typescript-Vite-Starter
   cd my-project
+  yarn install
+```
+
+Start the server
+
+```bash
+  yarn dev
+```
+
+### Using starter with tailwindcss
+
+Clone the project
+
+```bash
+  git clone https://github.com/shaddamalbz/React-Typescript-Vite-Starter
+  cd my-project
+  git pull origin tailwind
   yarn install
 ```
 
