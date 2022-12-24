@@ -15,7 +15,7 @@ A template for starting develop React appliaction
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/shaddamalbz/React-Typescript-Vite-Starter
   cd my-project
   yarn install
 ```
