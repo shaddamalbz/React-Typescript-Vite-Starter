@@ -4,7 +4,6 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:react/recommended',
@@ -27,6 +26,16 @@ module.exports = {
         devDependencies: true,
         optionalDependencies: false,
         peerDependencies: false,
+      },
+    ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
       },
     ],
   },

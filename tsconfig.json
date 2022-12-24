@@ -14,7 +14,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@/components/*": ["./components/*"],
+      "@/assets/*": ["./assets/*"],
+      "@/layouts/*": ["./layouts/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/utils/*": ["./utils/*"]
+    }
   },
   "include": [".eslintrc.cjs", "./src", "vite.config.ts", "vitest.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
